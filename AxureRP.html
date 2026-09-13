@@ -2,78 +2,488 @@
 <html lang="en">
 
 <head>
-    
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Goh Jun Xiang Portfolio Website</title>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a092a50542.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Goh Jun Xiang | Projects</title>
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <script
+        src="https://kit.fontawesome.com/a092a50542.js"
+        crossorigin="anonymous">
+    </script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-   
 
-    <section class="intro">
-        <h1 class="section__title section__title--intro">
-            <strong>Axure RP Prototype</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro"></p>
-        <img src="./img/Annotation 2021-08-07 222547.png" alt="mine picture" class="intro__img" />
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+    <header class="navbar">
+        <div class="nav-container">
+
+            <a href="#" class="logo">
+              JunXiang
+            </a>
+
+            <nav>
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
+    <section class="hero">
+
+        <div class="hero-background"></div>
+
+        <div class="hero-content">
+
+            <p class="hero-small-title">
+                SOFTWARE ENGINEERING PORTFOLIO
+            </p>
+
+            <h1>
+                My <span>Projects</span>
+            </h1>
+
+            <p class="hero-description">
+                A collection of projects I have developed and designed,
+                showcasing my experience in web development, UI/UX design,
+                prototyping and software engineering.
+            </p>
+
+            <a href="#projects" class="hero-button">
+                Explore My Work
+                <i class="fas fa-arrow-down"></i>
+            </a>
+
+        </div>
+
+        <div class="scroll-indicator">
+            <span></span>
+            Scroll to explore
+        </div>
+
     </section>
 
-    <div class="portfolio-item-individual">
 
-        <img src="./img/Annotation 2021-08-07 230354.png" alt="my Work">
-        <span><p>
-          I have use the Axure RP to design the login page.
-         
-        </p></span>
-    </div>
-  
+    <!-- =========================
+         ABOUT SECTION
+    ========================== -->
+    <section class="about-section" id="about">
+
+        <div class="section-container">
+
+            <div class="section-label">
+                <span>01</span>
+                ABOUT MY WORK
+            </div>
+
+            <div class="about-content">
+
+                <h2>
+                    Building ideas into
+                    <span>digital experiences.</span>
+                </h2>
+
+                <p>
+                    Throughout my studies and personal projects, I have
+                    developed different types of applications and prototypes.
+                    These projects allowed me to gain practical experience
+                    in software development, interface design and
+                    problem-solving.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
 
 
-    <!-- footer -->
+    <!-- =========================
+         PROJECTS SECTION
+    ========================== -->
+    <main id="projects">
+
+        <!-- PROJECT 01 -->
+        <section class="project-section">
+
+            <div class="section-container">
+
+                <div class="section-label">
+                    <span>02</span>
+                    PROJECT 01
+                </div>
+
+                <div class="project-header">
+
+                    <div>
+                        <p class="project-category">
+                            UI / UX · PROTOTYPING
+                        </p>
+
+                        <h2>
+                            Axure RP
+                            <span>Prototype</span>
+                        </h2>
+                    </div>
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                </div>
+
+
+                <!-- Project Images -->
+                <div class="project-gallery axure-gallery">
+
+                    <div class="project-image large-image">
+                        <img
+                            src="./img/Annotation 2021-08-07 222547.png"
+                            alt="Axure RP Prototype Main Screen"
+                        >
+
+                        <div class="image-overlay">
+                            <span>Axure RP Prototype</span>
+                        </div>
+                    </div>
+
+                    <div class="project-image small-image">
+                        <img
+                            src="./img/Annotation 2021-08-07 230354.png"
+                            alt="Axure RP Login Page Prototype"
+                        >
+
+                        <div class="image-overlay">
+                            <span>Login Page Design</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Project Description -->
+                <div class="project-info">
+
+                    <div class="project-description">
+
+                        <h3>
+                            Designing a user-friendly
+                            login experience.
+                        </h3>
+
+                        <p>
+                            I used Axure RP to design and develop an interactive
+                            prototype for a login page. The project focused on
+                            creating a simple, clear and user-friendly interface
+                            while demonstrating the basic interaction flow of
+                            the system.
+                        </p>
+
+                        <p>
+                            This project helped me understand the importance of
+                            user interface design, navigation flow and usability
+                            when developing a digital product.
+                        </p>
+
+                    </div>
+
+
+                    <div class="project-details">
+
+                        <div class="detail-item">
+                            <span>TOOLS</span>
+
+                            <p>
+                                Axure RP
+                            </p>
+                        </div>
+
+                        <div class="detail-item">
+                            <span>FOCUS</span>
+
+                            <p>
+                                UI / UX Design
+                            </p>
+                        </div>
+
+                        <div class="detail-item">
+                            <span>TYPE</span>
+
+                            <p>
+                                Interactive Prototype
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECT 02 -->
+        <section class="project-section phone-project">
+
+            <div class="section-container">
+
+                <div class="section-label">
+                    <span>03</span>
+                    PROJECT 02
+                </div>
+
+                <div class="project-header">
+
+                    <div>
+                        <p class="project-category">
+                            WEB DEVELOPMENT · APPLICATION
+                        </p>
+
+                        <h2>
+                            UTAR
+                            <span>Phone Store</span>
+                        </h2>
+                    </div>
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                </div>
+
+
+                <!-- Project Images -->
+                <div class="project-gallery phone-gallery">
+
+                    <div class="project-image small-image">
+                        <img
+                            src="./img/Annotation 2022-04-07 192848.png"
+                            alt="UTAR Phone Store Web Application"
+                        >
+
+                        <div class="image-overlay">
+                            <span>Phone Store Web App</span>
+                        </div>
+                    </div>
+
+                    <div class="project-image large-image">
+                        <img
+                            src="./img/Picture2.png"
+                            alt="UTAR Phone Store Interface"
+                        >
+
+                        <div class="image-overlay">
+                            <span>Phone Store Interface</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Project Description -->
+                <div class="project-info">
+
+                    <div class="project-description">
+
+                        <h3>
+                            A web application for
+                            an online phone store.
+                        </h3>
+
+                        <p>
+                            I developed a Phone Store Web Application as part
+                            of my academic project. The application was designed
+                            to provide users with a convenient way to browse
+                            and interact with phone products through a web
+                            interface.
+                        </p>
+
+                        <p>
+                            Through this project, I gained practical experience
+                            in web application development, interface design,
+                            system functionality and creating a more structured
+                            user experience.
+                        </p>
+
+                    </div>
+
+
+                    <div class="project-details">
+
+                        <div class="detail-item">
+                            <span>PROJECT</span>
+
+                            <p>
+                                UTAR Phone Store
+                            </p>
+                        </div>
+
+                        <div class="detail-item">
+                            <span>TYPE</span>
+
+                            <p>
+                                Web Application
+                            </p>
+                        </div>
+
+                        <div class="detail-item">
+                            <span>FOCUS</span>
+
+                            <p>
+                                Web Development
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         CONTACT SECTION
+    ========================== -->
+    <section class="contact-section" id="contact">
+
+        <div class="contact-background"></div>
+
+        <div class="section-container contact-container">
+
+            <div class="section-label">
+                <span>04</span>
+                GET IN TOUCH
+            </div>
+
+            <h2>
+                Let's create something
+                <span>great together.</span>
+            </h2>
+
+            <p>
+                Interested in my work or want to discuss a project?
+                Feel free to get in touch with me.
+            </p>
+
+            <a
+                href="mailto:jxjxjx28244@gmail.com"
+                class="email-button"
+            >
+                jxjxjx28244@gmail.com
+                <i class="fas fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
     <footer class="footer">
-        <a href="mailto:jxjxjx28244@gmail.com" class="footer__link"
-          >jxjxjx28244@gmail.com</a
-        >
-        <ul class="social-list">
-          
-        
-          <li class="social-list__item">
-            <a
-              class="social-list__link"
-              href="https://twitter.com/XXinag"
-              target="_blank"
-              ><i class="fab fa-twitter"></i
-            ></a>
-          </li>
-          <li class="social-list__item">
-            <a class="social-list__link" href="https://github.com/GohJunX" target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-          </li>
-          <li class="social-list__item">
-            <a
-              class="social-list__link"
-              href="www.linkedin.com/in/jun-xiang-goh-92440b258"
-              target="_blank"
-              ><i class="fa fa-linkedin-square"></i
-            ></a>
-          </li>
-  
-          <li class="social-list__item">
-            <a
-              class="social-list__link"
-              href="https://www.instagram.com/junxiang_____/"
-              target="_blank"
-              ><i class="fa fa-instagram"></i
-            ></a>
-          </li>
-        </ul>
-      </footer>
 
+        <div class="footer-container">
+
+            <div class="footer-left">
+
+                <a href="#" class="footer-logo">
+                    <span>&lt;</span> Jun Xiang <span>/&gt;</span>
+                </a>
+
+                <p>
+                    Software Engineering · Web Development · UI/UX
+                </p>
+
+            </div>
+
+
+            <div class="footer-right">
+
+                <p>
+                    © 2026 Goh Jun Xiang
+                </p>
+
+                <ul class="social-list">
+
+                    <!-- Twitter -->
+                    <li>
+                        <a
+                            href="https://twitter.com/XXinag"
+                            target="_blank"
+                            aria-label="Twitter"
+                        >
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+
+                    <!-- GitHub -->
+                    <li>
+                        <a
+                            href="https://github.com/GohJunX"
+                            target="_blank"
+                            aria-label="GitHub"
+                        >
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+
+                    <!-- LinkedIn -->
+                    <li>
+                        <a
+                            href="https://www.linkedin.com/in/jun-xiang-goh-92440b258"
+                            target="_blank"
+                            aria-label="LinkedIn"
+                        >
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+
+                    <!-- Instagram -->
+                    <li>
+                        <a
+                            href="https://www.instagram.com/junxiang_____/"
+                            target="_blank"
+                            aria-label="Instagram"
+                        >
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
     <script src="./JS/index.js"></script>
 
 </body>

@@ -2,76 +2,746 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Goh Jun Xiang Portfolio Website</title>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a092a50542.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Goh Jun Xiang | Weblog for Jobseekers and Employers</title>
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <script
+        src="https://kit.fontawesome.com/a092a50542.js"
+        crossorigin="anonymous">
+    </script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <header>
+
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#" class="logo">
+                 Jun Xiang 
+            </a>
+
+            <nav>
+                <a href="#project">Project</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </div>
 
     </header>
 
-    <section class="intro">
-        <h1 class="section__title section__title--intro">
-            <strong>Weblog for Jobseekers and Employers</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">Weblog for Jobseekers and Employers</p>
-        <img src="./img/Annotation 2023-10-02 180253.png" alt="mine picture" class="intro__img" />
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section class="hero">
+
+        <div class="hero-background"></div>
+
+        <div class="hero-content">
+
+            <p class="hero-small-title">
+                FINAL YEAR PROJECT · WEB APPLICATION
+            </p>
+
+            <h1>
+                Weblog for
+                <span>Jobseekers</span>
+            </h1>
+
+            <p class="hero-description">
+
+                A web-based platform designed to connect
+                jobseekers and employers through job searching,
+                job posting and online recruitment features.
+
+            </p>
+
+            <a href="#project" class="hero-button">
+
+                Explore Project
+
+                <i class="fas fa-arrow-down"></i>
+
+            </a>
+
+        </div>
+
+
+        <div class="scroll-indicator">
+
+            <span></span>
+
+            Scroll to explore
+
+        </div>
+
     </section>
 
-    <div class="portfolio-item-individual">
 
-        <img src="./img/Annotation 2023-10-02 180319.png" alt="my Work">
-        <span><p>
-        I have done the Weblog for Jobseekers and Employers for my FYP.         
-        </p></span>
-    </div>
-  
 
-    <!-- footer -->
+    <!-- =========================
+         ABOUT PROJECT
+    ========================== -->
+
+    <section class="about-section" id="about">
+
+        <div class="section-container">
+
+            <div class="section-label">
+
+                <span>01</span>
+
+                PROJECT OVERVIEW
+
+            </div>
+
+
+            <div class="about-content">
+
+                <h2>
+
+                    Connecting
+                    <span>jobseekers and employers.</span>
+
+                </h2>
+
+
+                <p>
+
+                    The Weblog for Jobseekers and Employers was developed
+                    as my Final Year Project. The system provides a platform
+                    where jobseekers can search and apply for jobs while
+                    employers can create job postings and manage recruitment
+                    activities.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         PROJECT
+    ========================== -->
+
+    <section class="project-section" id="project">
+
+        <div class="section-container">
+
+
+            <!-- SECTION LABEL -->
+
+            <div class="section-label">
+
+                <span>02</span>
+
+                FINAL YEAR PROJECT
+
+            </div>
+
+
+
+            <!-- PROJECT HEADER -->
+
+            <div class="project-header">
+
+                <div>
+
+                    <p class="project-category">
+
+                        WEB DEVELOPMENT · LARAVEL · REACT
+
+                    </p>
+
+
+                    <h2>
+
+                        Weblog for
+                        <span>Jobseekers</span>
+
+                    </h2>
+
+                </div>
+
+
+                <div class="project-number">
+
+                    01
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =========================
+                 PROJECT IMAGES
+            ========================== -->
+
+            <div class="project-gallery">
+
+
+                <!-- FIRST IMAGE -->
+
+                <div class="project-image large-image">
+
+                    <img
+                        src="./img/Annotation 2023-10-02 180253.png"
+                        alt="Weblog for Jobseekers and Employers main interface"
+                    >
+
+                    <div class="image-overlay">
+
+                        <span>
+                            Jobseeker & Employer Platform
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- SECOND IMAGE -->
+
+                <div class="project-image small-image">
+
+                    <img
+                        src="./img/Annotation 2023-10-02 180319.png"
+                        alt="Weblog for Jobseekers and Employers interface"
+                    >
+
+                    <div class="image-overlay">
+
+                        <span>
+                            Web Application Interface
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =========================
+                 PROJECT INFORMATION
+            ========================== -->
+
+            <div class="project-info">
+
+
+                <div class="project-description">
+
+                    <h3>
+
+                        A platform designed to
+                        simplify the job search process.
+
+                    </h3>
+
+
+                    <p>
+
+                        I developed the Weblog for Jobseekers and Employers
+                        as my Final Year Project. The system was created
+                        to provide a platform that connects jobseekers
+                        with employers.
+
+                    </p>
+
+
+                    <p>
+
+                        Jobseekers can browse and filter available job
+                        opportunities, submit applications and receive
+                        notifications. Employers can register, verify
+                        their accounts and create and manage job postings.
+
+                    </p>
+
+
+                    <p>
+
+                        The project also includes additional features such
+                        as online quizzes, interview scheduling, notifications,
+                        blog content, short videos and an AI chatbot to
+                        improve the overall user experience.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- PROJECT DETAILS -->
+
+                <div class="project-details">
+
+
+                    <div class="detail-item">
+
+                        <span>
+                            PROJECT
+                        </span>
+
+                        <p>
+                            Final Year Project
+                        </p>
+
+                    </div>
+
+
+                    <div class="detail-item">
+
+                        <span>
+                            FRAMEWORK
+                        </span>
+
+                        <p>
+                            Laravel
+                        </p>
+
+                    </div>
+
+
+                    <div class="detail-item">
+
+                        <span>
+                            FRONTEND
+                        </span>
+
+                        <p>
+                            Bootstrap / React
+                        </p>
+
+                    </div>
+
+
+                    <div class="detail-item">
+
+                        <span>
+                            DATABASE
+                        </span>
+
+                        <p>
+                            MySQL
+                        </p>
+
+                    </div>
+
+
+                    <div class="detail-item">
+
+                        <span>
+                            TYPE
+                        </span>
+
+                        <p>
+                            Web Application
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         FEATURES
+    ========================== -->
+
+    <section class="features-section">
+
+        <div class="section-container">
+
+
+            <div class="section-label">
+
+                <span>03</span>
+
+                KEY FEATURES
+
+            </div>
+
+
+            <div class="features-grid">
+
+
+                <div class="feature-card">
+
+                    <span class="feature-number">
+                        01
+                    </span>
+
+                    <i class="fas fa-search"></i>
+
+                    <h3>
+                        Job Search
+                    </h3>
+
+                    <p>
+
+                        Jobseekers can search and filter
+                        available job opportunities.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="feature-card">
+
+                    <span class="feature-number">
+                        02
+                    </span>
+
+                    <i class="fas fa-briefcase"></i>
+
+                    <h3>
+                        Job Posting
+                    </h3>
+
+                    <p>
+
+                        Employers can create and manage
+                        job advertisements.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="feature-card">
+
+                    <span class="feature-number">
+                        03
+                    </span>
+
+                    <i class="fas fa-bell"></i>
+
+                    <h3>
+                        Notifications
+                    </h3>
+
+                    <p>
+
+                        Users receive notifications related
+                        to applications and interviews.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="feature-card">
+
+                    <span class="feature-number">
+                        04
+                    </span>
+
+                    <i class="fas fa-robot"></i>
+
+                    <h3>
+                        AI Chatbot
+                    </h3>
+
+                    <p>
+
+                        An AI-powered chatbot provides
+                        additional assistance to users.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         TECHNOLOGY
+    ========================== -->
+
+    <section class="technology-section">
+
+        <div class="section-container">
+
+
+            <div class="section-label">
+
+                <span>04</span>
+
+                TECHNOLOGIES
+
+            </div>
+
+
+            <div class="technology-content">
+
+                <h2>
+                    Built with
+                    <span>modern technologies.</span>
+                </h2>
+
+
+                <div class="technology-list">
+
+                    <div>
+                        <span>01</span>
+                        Laravel
+                    </div>
+
+                    <div>
+                        <span>02</span>
+                        PHP
+                    </div>
+
+                    <div>
+                        <span>03</span>
+                        React
+                    </div>
+
+                    <div>
+                        <span>04</span>
+                        Bootstrap
+                    </div>
+
+                    <div>
+                        <span>05</span>
+                        MySQL
+                    </div>
+
+                    <div>
+                        <span>06</span>
+                        JavaScript
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section class="contact-section" id="contact">
+
+        <div class="contact-background"></div>
+
+        <div class="section-container contact-container">
+
+
+            <div class="section-label">
+
+                <span>05</span>
+
+                GET IN TOUCH
+
+            </div>
+
+
+            <h2>
+
+                Let's create something
+                <span>great together.</span>
+
+            </h2>
+
+
+            <p>
+
+                Interested in my work or want to discuss
+                a project? Feel free to get in touch with me.
+
+            </p>
+
+
+            <a
+                href="mailto:jxjxjx28244@gmail.com"
+                class="email-button"
+            >
+
+                jxjxjx28244@gmail.com
+
+                <i class="fas fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
     <footer class="footer">
-        <a href="mailto:jxjxjx28244@gmail.com" class="footer__link"
-          >jxjxjx28244@gmail.com</a
-        >
-        <ul class="social-list">
-          
-        
-          <li class="social-list__item">
-            <a
-              class="social-list__link"
-              href="https://twitter.com/XXinag"
-              target="_blank"
-              ><i class="fab fa-twitter"></i
-            ></a>
-          </li>
-          <li class="social-list__item">
-            <a class="social-list__link" href="https://github.com/GohJunX" target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-          </li>
-          <li class="social-list__item">
-            <a
-              class="social-list__link"
-              href="www.linkedin.com/in/jun-xiang-goh-92440b258"
-              target="_blank"
-              ><i class="fa fa-linkedin-square"></i
-            ></a>
-          </li>
-  
-          <li class="social-list__item">
-            <a
-              class="social-list__link"
-              href="https://www.instagram.com/junxiang_____/"
-              target="_blank"
-              ><i class="fa fa-instagram"></i
-            ></a>
-          </li>
-        </ul>
-      </footer>
+
+        <div class="footer-container">
+
+
+            <div class="footer-left">
+
+                <a href="#" class="footer-logo">
+
+                    <span>&lt;</span>
+                    Jun Xiang
+                    <span>/&gt;</span>
+
+                </a>
+
+
+                <p>
+
+                    Software Engineering · Web Development · UI/UX
+
+                </p>
+
+            </div>
+
+
+
+            <div class="footer-right">
+
+                <p>
+
+                    © 2026 Goh Jun Xiang
+
+                </p>
+
+
+                <ul class="social-list">
+
+
+                    <!-- Twitter -->
+
+                    <li>
+
+                        <a
+                            href="https://twitter.com/XXinag"
+                            target="_blank"
+                            aria-label="Twitter"
+                        >
+
+                            <i class="fab fa-twitter"></i>
+
+                        </a>
+
+                    </li>
+
+
+
+                    <!-- GitHub -->
+
+                    <li>
+
+                        <a
+                            href="https://github.com/GohJunX"
+                            target="_blank"
+                            aria-label="GitHub"
+                        >
+
+                            <i class="fab fa-github"></i>
+
+                        </a>
+
+                    </li>
+
+
+
+                    <!-- LinkedIn -->
+
+                    <li>
+
+                        <a
+                            href="https://www.linkedin.com/in/jun-xiang-goh-92440b258"
+                            target="_blank"
+                            aria-label="LinkedIn"
+                        >
+
+                            <i class="fab fa-linkedin-in"></i>
+
+                        </a>
+
+                    </li>
+
+
+
+                    <!-- Instagram -->
+
+                    <li>
+
+                        <a
+                            href="https://www.instagram.com/junxiang_____/"
+                            target="_blank"
+                            aria-label="Instagram"
+                        >
+
+                            <i class="fab fa-instagram"></i>
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- JavaScript -->
 
     <script src="./JS/index.js"></script>
 

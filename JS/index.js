@@ -517,12 +517,12 @@ $(function () {
       "Git",
       "GitHub",
       "BootStrap",
-      "Sass",
       "HTML",
       "CSS",
       "React",
       "Linux",
       "Node.js",
+      "Excel"
     ],
     typeSpeed: 100,
   });
